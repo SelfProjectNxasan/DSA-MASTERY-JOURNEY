@@ -25,7 +25,8 @@ def RemoveItem(a:list,item)->list:
         if a[i] != item:
             ret.append(a[i])
     return ret
-def get_odd(ar:list)->int:
+def get_odd(ar:list)->list:
+    return [x for x in ar if x % 2 != 0]
 
     return [x for x in ar if x % 2 != 0]
 elements = [57,8,9,4,8,4,8,44,3]
