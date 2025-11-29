@@ -29,7 +29,8 @@ def CapOnFirst(str_ :str):
         char_first = index 
         while count < len(str_) and (str_[count].isalpha()):
             if(count == char_first):
-                str_[count] = str_[count].upper()
+                str_.insert
+                str_.pop(count)
             count += 1
             index = count 
         index += 1
