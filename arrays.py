@@ -23,6 +23,7 @@ def RemoveItem(a:list,item)->list:
             ret.append(a[i])
     return ret
 def get_odd(ar:list)->int:
+    
     return [x for x in ar if x % 2 != 0]
 elements = [57,8,9,4,8,4,8,44,3]
 is_five = get_odd(elements)
